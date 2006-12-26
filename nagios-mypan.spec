@@ -1,6 +1,7 @@
 # TODO
 # - everything
-Summary:	Graph performance data retrieved from Nagios using rrdtool.
+Summary:	Graph performance data retrieved from Nagios using rrdtool
+Summary(pl):	Rysowanie wykresów danych wydajno¶ci uzyskanych z Nagiosa przy u¿yciu rrdtoola
 Name:		nagios-mypan
 Version:	0.beta1
 Release:	0.1
@@ -16,6 +17,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 mypan (MY Performance Add-on for Nagios) is as the name states an
 add-on for Nagios. The goal is to provide an easy way to graph
 performance data retrieved from Nagios using rrdtool.
+
+%description -l pl
+mypan (MY Performance Add-on for Nagios), jak sama nazwa wskazuje,
+jest dodatkiem dla Nagiosa. Jego celem jest umo¿liwienie ³atwego
+tworzenia wykresów z danych dotycz±cych wydajno¶ci uzyskanych z
+Nagiosa przy u¿yciu rrdtoola.
 
 %prep
 %setup -q -n mypan
