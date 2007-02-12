@@ -1,7 +1,7 @@
 # TODO
 # - everything
 Summary:	Graph performance data retrieved from Nagios using rrdtool
-Summary(pl.UTF-8):   Rysowanie wykresów danych wydajności uzyskanych z Nagiosa przy użyciu rrdtoola
+Summary(pl.UTF-8):	Rysowanie wykresów danych wydajności uzyskanych z Nagiosa przy użyciu rrdtoola
 Name:		nagios-mypan
 Version:	0.beta1
 Release:	0.1
